@@ -4,7 +4,7 @@ import net.sourceforge.tess4j.*;
 public class TesseractExample {
 
     public static void main(String[] args) {
-        File imageFile = new File("C:\\Users\\tharagesh\\Pictures\\med2.jpg");
+        File imageFile = new File("<image_location>");
         ITesseract instance = new Tesseract();  // JNA Interface Mapping
         // ITesseract instance = new Tesseract1(); // JNA Direct Mapping
 
